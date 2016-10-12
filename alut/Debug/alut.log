@@ -1,0 +1,30 @@
+﻿Build started 6/21/2016 1:21:03 PM.
+     1>Project "C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\Engine\alut\alut.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\OpenAL 1.1 with EFX SDK\include" /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D ALUT_BUILD_LIBRARY /D HAVE__STAT /D HAVE___INT8 /D HAVE_SLEEP /D HAVE_WINDOWS_H /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\src\alutBufferData.c ..\..\..\src\alutCodec.c ..\..\..\src\alutError.c ..\..\..\src\alutInit.c ..\..\..\src\alutInputStream.c ..\..\..\src\alutLoader.c ..\..\..\src\alutOutputStream.c ..\..\..\src\alutUtil.c ..\..\..\src\alutVersion.c ..\..\..\src\alutWaveform.c
+         alutWaveform.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutWaveform.c': No such file or directory
+         alutVersion.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutVersion.c': No such file or directory
+         alutUtil.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutUtil.c': No such file or directory
+         alutOutputStream.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutOutputStream.c': No such file or directory
+         alutLoader.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutLoader.c': No such file or directory
+         alutInputStream.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutInputStream.c': No such file or directory
+         alutInit.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutInit.c': No such file or directory
+         alutError.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutError.c': No such file or directory
+         alutCodec.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutCodec.c': No such file or directory
+         alutBufferData.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\src\alutBufferData.c': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\Engine\alut\alut.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.91
