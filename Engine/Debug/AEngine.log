@@ -1,0 +1,44 @@
+﻿Build started 7/8/2016 1:57:47 PM.
+     1>Project "c:\Users\tstc-alien\documents\visual studio 2013\Projects\AEngine\AEngine\AEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DeviceEnumeration.cpp
+         DeviceEnumeration.cpp
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(88): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\tstc-alien\documents\visual studio 2013\projects\aengine\aengine\deviceenumeration.cpp(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"c:\users\tstc-alien\documents\visual studio 2013\Projects\AEngine\Debug\AEngine.lib" /NOLOGO Debug\AnimatedObject.obj
+         Debug\BoundingVolume.obj
+         Debug\DeviceEnumeration.obj
+         Debug\Engine.obj
+         Debug\Font.obj
+         Debug\Input.obj
+         Debug\Material.obj
+         Debug\Mesh.obj
+         Debug\Network.obj
+         Debug\RenderCache.obj
+         Debug\SceneManager.obj
+         Debug\SceneObject.obj
+         Debug\Scripting.obj
+         Debug\SoundSystem.obj
+         Debug\SpawnerObject.obj
+         Debug\State.obj
+         Debug\ViewFrustum.obj
+     1>SoundSystem.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         AEngine.vcxproj -> c:\users\tstc-alien\documents\visual studio 2013\Projects\AEngine\Debug\AEngine.lib
+     1>Done Building Project "c:\Users\tstc-alien\documents\visual studio 2013\Projects\AEngine\AEngine\AEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60
